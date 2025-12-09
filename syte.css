@@ -69,3 +69,47 @@ h1 {
   font-size: 1.6rem;
   color: rgb(234, 240, 240);
 }
+
+.info {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+.info-caja {
+  width: 250px;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  border-left: 4px solid #000;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+}
+
+.info-blue {
+  border-left: 4px solid oklch(0.546 0.245 262.881);
+}
+
+.info-yellow {
+  border-left: 4px solid oklch(0.795 0.184 86.047);
+}
+
+.info-green {
+  border-left: 4px solid oklch(0.723 0.219 149.579);
+}
+
+.info-purple {
+  border-left: 4px solid oklch(0.627 0.265 303.9);
+}
+
+.icon {
+  margin-top: 0.7rem;
+  margin-left: 1.2rem;
+}
+
+.icon-azul {
+  background-color: rgb(12, 127, 228);
+  border-radius: 5px;
+  width: 20%;
+  height: 40%;
+  margin-left: 10px;
+}
