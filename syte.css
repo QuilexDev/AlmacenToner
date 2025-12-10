@@ -75,13 +75,30 @@ h1 {
   display: flex;
   gap: 20px;
 }
+.info-cantidad {
+  font-size: 3rem;
+}
+.info-titulo {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  margin-left: 0.9rem;
+  color: oklch(0.446 0.03 256.802);
+}
+
+.info-actualizaciones {
+  margin-top: 0.5rem;
+  margin-left: 0.9rem;
+  font-size: 1rem;
+  color: oklch(0.446 0.03 256.802);
+  margin-bottom: 2rem;
+}
 .info-caja {
-  width: 250px;
-  height: 100px;
+  width: 100%;
+  max-width: 250px; /* límite máximo */
+  height: auto;
   background-color: rgb(255, 255, 255);
   border-left: 4px solid #000;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
+  border-radius: 10px;
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
 }
 
@@ -102,14 +119,34 @@ h1 {
 }
 
 .icon {
-  margin-top: 0.7rem;
-  margin-left: 1.2rem;
+  margin-top: 0.8rem;
+  margin-left: 0.9rem;
 }
 
-.icon-azul {
-  background-color: rgb(12, 127, 228);
+.icon-block {
   border-radius: 5px;
-  width: 20%;
-  height: 40%;
+  width: 17%;
+  height: 4rem;
   margin-left: 10px;
+}
+
+.icon-block--blue {
+  background-color: oklch(0.932 0.032 255.585);
+}
+
+.icon-block--yellow {
+  background-color: oklch(0.973 0.071 103.193);
+}
+
+.icon-block--green {
+  background-color: oklch(0.962 0.044 156.743);
+}
+.icon-block--purple {
+  background-color: oklch(0.946 0.033 307.174);
+}
+
+.info-layaout {
+  display: flex;
+  gap: 15rem;
+  margin-top: 2.5rem;
 }
